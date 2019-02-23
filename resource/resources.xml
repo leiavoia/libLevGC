@@ -1,0 +1,169 @@
+<?xml version=\"1.0\" standalone=\"no\" ?>
+
+<!--  RESOURCES CONFIG FILE -->
+
+
+<textures>
+     <!-- Testing -->
+	<!--<TEXTURE HANDLE="player_face" FILE="graphics/goodface.png" />-->
+<!--	<TEXTURE HANDLE="player_face" FILE="workshop/graphics/marble_orb.png" />
+	<TEXTURE HANDLE="world_block" FILE="workshop/graphics/textures/technic_128px.jpg" />
+	<TEXTURE HANDLE="technic_128" FILE="workshop/graphics/textures/technic_128px.jpg" />
+	<TEXTURE HANDLE="technic1" FILE="workshop/graphics/textures/technic1.png" />
+	<TEXTURE HANDLE="technic2" FILE="workshop/graphics/textures/technic2.jpg" />
+	<TEXTURE HANDLE="rust_metal_1" FILE="workshop/graphics/textures/stuco.jpg" />-->
+	<!--<TEXTURE HANDLE="test_bg" FILE="workshop/graphics/textures/xbg1.jpg" />-->
+<!--	<TEXTURE HANDLE="test_bg" FILE="workshop/graphics/textures/large_rust.jpg" />
+	<TEXTURE HANDLE="test_bg2" FILE="workshop/graphics/textures/stuco_large_darker.jpg" />
+	<TEXTURE HANDLE="test_bg_fore" FILE="workshop/graphics/textures/stuco_large_holes.png" />
+	<TEXTURE HANDLE="overlay" FILE="workshop/graphics/textures/xbg1.png" />
+	<TEXTURE HANDLE="PlayerDummyImage" FILE="workshop/graphics/player/player_dummy_img.png" />
+	-->
+
+	<!-- Lighting -->
+<!--	<TEXTURE HANDLE="laser_light" FILE="workshop/graphics/weapon/laser_light.png" />
+	<TEXTURE HANDLE="light_sphere" FILE="workshop/graphics/weapon/light_sphere.png" />
+	<TEXTURE HANDLE="light_sphere_pointed" FILE="workshop/graphics/weapon/light_sphere_pointed.png" />
+	<TEXTURE HANDLE="light_sphere_sharp" FILE="workshop/graphics/weapon/light_sphere_sharp.png" />-->
+
+	<!--  RustBlock - 3x3  -->
+<!--	<TEXTURE HANDLE="rustblock_TL" FILE="workshop/graphics/textures/rustblock_TL.png" />
+	<TEXTURE HANDLE="rustblock_T" FILE="workshop/graphics/textures/rustblock_T.png" />
+	<TEXTURE HANDLE="rustblock_TR" FILE="workshop/graphics/textures/rustblock_TR.png" />
+	<TEXTURE HANDLE="rustblock_L" FILE="workshop/graphics/textures/rustblock_L.png" />
+	<TEXTURE HANDLE="rustblock_M" FILE="workshop/graphics/textures/rustblock_M.png" />
+	<TEXTURE HANDLE="rustblock_R" FILE="workshop/graphics/textures/rustblock_R.png" />
+	<TEXTURE HANDLE="rustblock_BL" FILE="workshop/graphics/textures/rustblock_BL.png" />
+	<TEXTURE HANDLE="rustblock_B" FILE="workshop/graphics/textures/rustblock_B.png" />
+	<TEXTURE HANDLE="rustblock_BR" FILE="workshop/graphics/textures/rustblock_BR.png" />
+	-->
+	<!-- lasers -->
+<!--	<TEXTURE HANDLE="lasers" FILE="workshop/graphics/weapon/lasers.png">
+		<AREA HANDLE="laser_blue" X1="0" Y1="0" X2="64" Y2="16" />
+		<AREA HANDLE="laser_green" X1="0" Y1="16" X2="64" Y2="32" />
+		<AREA HANDLE="laser_red" X1="0" Y1="32" X2="64" Y2="48" />
+		<AREA HANDLE="laser_yellow" X1="0" Y1="48" X2="64" Y2="64" />
+	</TEXTURE>
+
+	<TEXTURE HANDLE="doors" FILE="workshop/graphics/doors.png">
+		<AREA HANDLE="test_door" X1="0" Y1="0" X2="80" Y2="140" />
+	</TEXTURE>
+
+	<TEXTURE HANDLE="explosion1" FILE="resource/graphics/anim/explosions/explosion1/explosion_128px_sheet.png">
+		<AREA HANDLE="explosion1_f1" X1="0"   Y1="0" X2="128" Y2="128" />
+		<AREA HANDLE="explosion1_f2" X1="128" Y1="0" X2="256" Y2="128" />
+		<AREA HANDLE="explosion1_f3" X1="256" Y1="0" X2="384" Y2="128" />
+		<AREA HANDLE="explosion1_f4" X1="384" Y1="0" X2="512" Y2="128" />
+
+		<AREA HANDLE="explosion1_f5" X1="0"   Y1="128" X2="128" Y2="256" />
+		<AREA HANDLE="explosion1_f6" X1="128" Y1="128" X2="256" Y2="256" />
+		<AREA HANDLE="explosion1_f7" X1="256" Y1="128" X2="384" Y2="256" />
+		<AREA HANDLE="explosion1_f8" X1="384" Y1="128" X2="512" Y2="256" />
+
+		<AREA HANDLE="explosion1_f9"  X1="0"   Y1="256" X2="128" Y2="384" />
+		<AREA HANDLE="explosion1_f10" X1="128" Y1="256" X2="256" Y2="384" />
+		<AREA HANDLE="explosion1_f11" X1="256" Y1="256" X2="384" Y2="384" />
+		<AREA HANDLE="explosion1_f12" X1="384" Y1="256" X2="512" Y2="384" />
+
+		<AREA HANDLE="explosion1_f13" X1="0"   Y1="384" X2="128" Y2="512" />
+		<AREA HANDLE="explosion1_f14" X1="128" Y1="384" X2="256" Y2="512" />
+		<AREA HANDLE="explosion1_f15" X1="256" Y1="384" X2="384" Y2="512" />
+		<AREA HANDLE="explosion1_f16" X1="384" Y1="384" X2="512" Y2="512" />
+	</TEXTURE>-->
+
+	<!-- items -->
+<!--	<TEXTURE HANDLE="air_collect_base" FILE="resource/graphics/objects/air_collect_base.png" />
+	<TEXTURE HANDLE="air_collect_sparkle" FILE="resource/graphics/objects/air_collect_sparkle.png" />-->
+
+
+	<!--<TEXTURE HANDLE="grey_pipes" FILE="resource/graphics/world/pipes/grey_pipes_sheet.png">
+		<AREA HANDLE="body" X1="0" Y1="0" X2="128" Y2="64" />
+		<AREA HANDLE="cap" X1="0" Y1="64" X2="64" Y2="128" />
+		<AREA HANDLE="turn" X1="64" Y1="64" X2="128" Y2="128" />
+	</TEXTURE>-->
+
+</textures>
+
+
+<fonts>
+<!--	<FONT SIZE="12" FILE="resource/fonts/arial.ttf">
+		<ALIAS HANDLE="basic_widget" />
+	</FONT>
+
+	<FONT SIZE="24" FILE="resource/fonts/arial.ttf">
+		<ALIAS HANDLE="player_label" />
+		<ALIAS HANDLE="FaderMessageBox" />
+	</FONT>
+
+	<FONT SIZE="36" FILE="resource/fonts/arial.ttf" ADVANCE="0123456789">
+		<ALIAS HANDLE="FPScounter" />
+	</FONT>	-->
+</fonts>
+
+
+
+<soundfx>
+<!--
+	<SOUND FILE="resource/audio/test/explosion3.wav">
+		<ALIAS HANDLE="explosion" />
+		<ALIAS HANDLE="ball_explosion" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/phaser.wav">
+		<ALIAS HANDLE="laser_shot" />
+		<ALIAS HANDLE="phaser" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/heavy_phaser.wav">
+		<ALIAS HANDLE="heavy_laser_shot" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/blip_blip.wav">
+		<ALIAS HANDLE="que" />
+		<ALIAS HANDLE="done" />
+		<ALIAS HANDLE="laser_charge_done" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/swoosh.wav">
+		<ALIAS HANDLE="fire_flower" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/hit_metal_tank.ogg">
+		<ALIAS HANDLE="ball_laser_collision" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/hit_metal_grate3.ogg">
+		<ALIAS HANDLE="ball_world_collision" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/hit_metal_hollow.ogg">
+		<ALIAS HANDLE="ball_player_collision" />
+	</SOUND>
+
+	<SOUND FILE="resource/audio/test/blip6.wav">
+		<ALIAS HANDLE="air_collect" />
+	</SOUND>-->
+
+</soundfx>
+
+
+
+<music>
+
+<!--	<TRACK FILE="resource/audio/test/03_b3.ogg">
+		<ALIAS HANDLE="test_bg_music_2" />
+	</TRACK>
+
+	<TRACK FILE="../../../mp3/Autechre/tri_repetae/10_rsdio.ogg">
+		<ALIAS HANDLE="test_bg_music2" />
+	</TRACK>
+
+	<TRACK FILE="../../../mp3/Ian_Boddy/Moire/01_Accretion.ogg">
+		<ALIAS HANDLE="test_bg_music" />
+	</TRACK>
+
+	<TRACK FILE="resource/audio/music/PulseTrainEdit.ogg">
+		<ALIAS HANDLE="test_bg_music3" />
+	</TRACK>	-->
+
+</music>

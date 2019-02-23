@@ -1,0 +1,152 @@
+<?xml version=\"1.0\" standalone=\"no\" ?>
+
+<!-- 
+
+INPUT CONFIGURATION 
+
+NOTE: Please use key numbers provided by SDL.
+The SDL keymap can be found in the SDL_Keymap.txt
+file as a reference.
+
+STATES:
+	down - when a button is pressed
+	up - when a button is released
+	held - when a button's state was "down" this frame and last
+	
+BOOLS:
+	+ - these keys together
+	| - any of these keys
+	[no bool] - undefined behavior if there is more than one key
+	
+	
+-->
+
+
+<KEYMAP>
+	<KEY BUTTON="273"	MAP="UP" 		/>
+	<KEY BUTTON="274"	MAP="DOWN" 	/>
+	<KEY BUTTON="276"	MAP="LEFT" 	/>
+	<KEY BUTTON="275"	MAP="RIGHT"  	/>
+	<KEY BUTTON="0"	MAP="A" 		/>
+	<KEY BUTTON="0"	MAP="B" 		/>
+	<KEY BUTTON="0"	MAP="X" 		/>
+	<KEY BUTTON="0"	MAP="Y" 		/>
+	<KEY BUTTON="0"	MAP="L" 		/>
+	<KEY BUTTON="0"	MAP="R" 		/>
+	<KEY BUTTON="0"	MAP="SELECT"   />
+	<KEY BUTTON="0"	MAP="START"  	/>
+</KEYMAP>
+
+
+<GAMESTATE NAME="action">
+
+	
+	<KEYACTION COMMAND="player_vert_rest" BOOL="|">
+		<KEY NUM="273" STATE="up" /> <!--UP-->
+		<KEY NUM="274" STATE="up" /> <!--DOWN-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_horz_rest" BOOL="|">
+		<KEY NUM="275" STATE="up" /> <!--RIGHT-->
+		<KEY NUM="276" STATE="up" /> <!--LEFT-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_move_up" BOOL="|">
+		<KEY NUM="273" STATE="down" /> <!--UP-->
+		<KEY NUM="273" STATE="held" /> <!--UP-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_move_down" BOOL="|">
+		<KEY NUM="274" STATE="down" /> <!--DOWN-->
+		<KEY NUM="274" STATE="held" /> <!--DOWN-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_move_right" BOOL="|">
+		<KEY NUM="275" STATE="down" /> <!--RIGHT-->
+		<KEY NUM="275" STATE="held" /> <!--RIGHT-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_move_left" BOOL="|">
+		<KEY NUM="276" STATE="down" /> <!--LEFT-->
+		<KEY NUM="276" STATE="held" /> <!--LEFT-->
+	</KEYACTION>
+	
+
+	
+	
+	
+	
+	<KEYACTION COMMAND="player_fire" BOOL="|">
+		<KEY NUM="9" STATE="down" /> <!--TAB-->
+		<KEY NUM="9" STATE="up" /> <!--TAB-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_fire_flower">
+		<KEY NUM="96" STATE="down" /> <!--TILDE-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="player_charge_weapon">
+		<KEY NUM="9" STATE="held" /> <!--TAB-->
+	</KEYACTION>
+	
+	<!--<KEYACTION COMMAND="player_accelerate_jump">
+		<KEY NUM="32" STATE="held" /> 
+	</KEYACTION>-->
+	
+	<KEYACTION COMMAND="player_jump" BOOL="|">
+		<KEY NUM="32" STATE="down" /> <!--SPACE-->
+		<KEY NUM="32" STATE="held" /> <!--SPACE-->
+	</KEYACTION>
+	
+	
+	
+	
+	<KEYACTION COMMAND="testing_laser">
+		<KEY NUM="108" STATE="down" /> <!--L-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="testing_add_ball">
+		<KEY NUM="109" STATE="down" /> <!--M-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="testing_add_10balls">
+		<KEY NUM="110" STATE="down" /> <!--N-->
+	</KEYACTION>
+	
+
+	
+		
+	<KEYACTION COMMAND="quit">
+		<KEY NUM="27" STATE="down" /> <!--ESCAPE-->
+	</KEYACTION>
+	
+		
+</GAMESTATE>
+	
+	
+
+<GAMESTATE NAME="title">
+	
+	<KEYACTION COMMAND="focus_last" BOOL="|">
+		<KEY NUM="273" STATE="down" /> <!--UP-->
+		<KEY NUM="276" STATE="down" /> <!--LEFT-->		
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="focus_next" BOOL="|">
+		<KEY NUM="275" STATE="down" /> <!--RIGHT-->
+		<KEY NUM="274" STATE="down" /> <!--DOWN-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="enter">
+		<KEY NUM="13" STATE="down" /> <!--RETURN-->
+	</KEYACTION>
+	
+	<KEYACTION COMMAND="cancel">
+		<KEY NUM="27" STATE="down" /> <!--ESCAPE-->
+	</KEYACTION>
+		
+</GAMESTATE>
+
+
+
+

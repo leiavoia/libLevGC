@@ -1,0 +1,7 @@
+<?xml version=\"1.0\" standalone=\"no\" ?>
+
+<!--  RESOURCE CONFIG FILE REGISTRY  -->
+
+<RESOURCES>
+	<FILE SRC="resource/config/textures/rust.xml" />
+</RESOURCES>
